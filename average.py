@@ -8,4 +8,4 @@ def average(arr):
         count = calculator.add(count, 1)
         total = calculator.add(total, i)
 
-    return calculator.divide(total/count)
+    return calculator.divide(total, count)
